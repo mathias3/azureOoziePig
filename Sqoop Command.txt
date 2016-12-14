@@ -1,0 +1,1 @@
+sqoop export --connect "jdbc:sqlserver://<server>.database.windows.net;username=<login>@<server>;password=<password>;database=DataDB" --table logdata --export-dir /data/iislogs/summarized --input-fields-terminated-by \\t

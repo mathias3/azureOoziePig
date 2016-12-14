@@ -1,0 +1,5 @@
+CREATE TABLE logdata
+(log_date date,
+ Requests int,
+ InboundBytes int,
+ OutboundBytes int);
